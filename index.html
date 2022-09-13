@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+          axios.get('localhost/api/api1.php')
+                .then(res => {
+                    const data = res.data;
+                    console.log(data)
+                })
+
+
+        </script>
+    </body>
+</html>
